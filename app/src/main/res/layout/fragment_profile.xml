@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/wheat">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="168dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="#000000"
+        android:text="Profile"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="156dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="154dp"
+        app:srcCompat="@drawable/foto" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="141dp"
+        android:layout_marginEnd="101dp"
+        android:text="Nama : Iva Roudhotul Rohmah"
+        android:textColor="#000000"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="261dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="48dp"
+        android:textColor="#000000"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="101dp"
+        android:text="NIM     : 2018113"
+        android:textSize="16sp" />
+</RelativeLayout>
